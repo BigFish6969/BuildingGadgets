@@ -181,8 +181,8 @@ public class Config {
             private CategoryGadgetBuilding() {
                 SERVER_BUILDER.comment("Energy Cost & Durability of the Building Gadget")/*.translation(LANG_KEY_GADGET_BUILDING)*/.push("Building Gadget");
 
-                maxEnergy    = getMaxEnergy(500000);
-                energyCost   = getEnergyCost(50);
+                maxEnergy    = getMaxEnergy(0);
+                energyCost   = getEnergyCost(0);
                 undoSize     = getMaxUndoSize(10);
 
                 SERVER_BUILDER.pop();
@@ -198,8 +198,8 @@ public class Config {
             private CategoryGadgetExchanger() {
                 SERVER_BUILDER.comment("Energy Cost & Durability of the Exchanging Gadget")/*.translation(LANG_KEY_GADGET_EXCHANGER)*/.push("Exchanging Gadget");
 
-                maxEnergy   = getMaxEnergy(500000);
-                energyCost  = getEnergyCost(100);
+                maxEnergy   = getMaxEnergy(0);
+                energyCost  = getEnergyCost(0);
                 undoSize    = getMaxUndoSize(10);
 
                 SERVER_BUILDER.pop();
@@ -218,8 +218,8 @@ public class Config {
             private CategoryGadgetDestruction() {
                 SERVER_BUILDER.comment("Energy Cost, Durability & Maximum Energy of the Destruction Gadget")/*.translation(LANG_KEY_GADGET_DESTRUCTION)*/.push("Destruction Gadget");
 
-                maxEnergy   = getMaxEnergy(1000000);
-                energyCost  = getEnergyCost(200);
+                maxEnergy   = getMaxEnergy(0);
+                energyCost  = getEnergyCost(0);
                 undoSize    = getMaxUndoSize(1);
 
                 destroySize = SERVER_BUILDER
@@ -255,8 +255,8 @@ public class Config {
             private CategoryGadgetCopyPaste() {
                 SERVER_BUILDER.comment("Energy Cost & Durability of the Copy-Paste Gadget")/*.translation(LANG_KEY_GADGET_COPY_PASTE)*/.push("Copy-Paste Gadget");
 
-                maxEnergy   = getMaxEnergy(500000);
-                energyCost  = getEnergyCost(50);
+                maxEnergy   = getMaxEnergy(0);
+                energyCost  = getEnergyCost(0);
                 undoSize    = getMaxUndoSize(1);
 
                 copySteps = SERVER_BUILDER
